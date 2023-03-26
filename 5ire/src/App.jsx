@@ -5,8 +5,12 @@ import './App.css'
 
 function App() {
 
+  
+
   return (
-    <Home />
+    <div>
+      <Home />
+    </div>
   )
 }
 
