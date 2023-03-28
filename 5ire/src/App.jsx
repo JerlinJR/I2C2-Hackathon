@@ -1,13 +1,18 @@
 import React from 'react'
-import Footer from './components/Footer'
-
+import Home from './pages/Home'
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 import './App.css'
 
 function App() {
 
+  
+
   return (
-    <Footer />
+    <div>
+      <Home />
+    </div>
   )
 }
 

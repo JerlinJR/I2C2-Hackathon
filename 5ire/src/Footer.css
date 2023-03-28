@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{ line-height: 1.5; font-family: 'Poppins', sans-serif; }
+*{ margin:0; padding:0; box-sizing: border-box; }
+.container{ max-width: 2000px; margin:auto;}
+.row{ display: flex; flex-wrap: wrap;}
+ul{ list-style: none; }
+
+#subscribe{
+	background-color:#8FC6F3;
+    padding: 100px 0;
+    text-align: center;
+    font-weight: 600;
+}
+#subscribe h1 {
+    font-size: 35px;
+    line-height: 42px;
+
+}
+.footer{
+	background-color: #1E1E1E;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 20%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color:#FF6392;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 30px;
+}
+.footer-col ul li a{
+	text-transform: capitalize;
+	color:#FFFFFF;
+	text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.social-linkss{
+    margin-left: 20px;
+}
+
+.social-linkss h4{
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer-col .social-links .social-linkss img{
+	display: inline-block;
+	height: 20.04px;
+	width: 20.68px;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height:40px;
+}
+.footer-col .social-links h2{
+    position: absolute;
+    width: 97px;
+    height: 28px;
+    left: 127px;
+    top: 5656px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+color: #FFFFFF;
+}
+.rights{
+    margin-top: 100px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 13px;
+    line-height:15.73px;
+    font-weight: 600;
+}
+/*responsive*/
+@media(max-width: 767px){ .footer-col { width: 50%; margin-bottom: 30px; } }
+@media(max-width: 574px){.footer-col { width: 100%;} }
+@media(max-width: 767px){ #rights{ width: 50%; margin-bottom: 30px;} }
+@media(max-width: 574px){ #rights{width: 100%;} }
+  
+
+
+
