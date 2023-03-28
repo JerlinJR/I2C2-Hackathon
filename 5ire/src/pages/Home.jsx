@@ -70,7 +70,7 @@ export default function Home(){
                 <button className="bg-blue-500 text-white p-2 rounded-md font-bold my-5 mx-10">Learn More</button>
             </div>
 
-            {/* Featured Box */}
+        {/* Featured Box */}
 
             <div className="bg-blue-300 rounded-md  p-14  mx-16 my-20 all">
                 <h1 className="font-bold text-lg">Our ultimate mission is to make it easy for businesses, governments, entrepreneurs, and institutions to incentivize sustainability. By aligning economic growth with global sustainability, we want to make it easy to be ‘good’.</h1>
@@ -104,7 +104,7 @@ export default function Home(){
                 <img className=' w-[750px]' src={flowGroup} alt='group-flow' />
             </div>
 
-            {/* Break the test net  */}
+        {/* Break the test net  */}
 
             <div className="flex flex-col items-center justify-center p-20 testnet gap-5 all">
                 <h1 className="text-3xl font-bold">
@@ -122,7 +122,7 @@ export default function Home(){
                 <img src={testNet} alt='test-net-img' />
             </div>
 
-            {/* Technology Partner  */}
+        {/* Technology Partner  */}
 
             <div className="all flex flex-col gap-5 justify-center items-center my-20">
                 <h1 className='text-4xl font-bold'>
@@ -136,31 +136,31 @@ export default function Home(){
 
     {/* Slider */}
 
-        <div>
-            <Slider className=' my-28' {...settings}>
-                
-                {slider.map(item => (
-                    <div className="mx-10" key={item.title} >
-                        <img className='w-[400px]' src={item.image} />
-                    </div>
+            <div>
+                <Slider className=' my-28' {...settings}>
                     
-                ))}
-                
-            </Slider>
-        </div>
+                    {slider.map(item => (
+                        <div className="mx-10" key={item.title} >
+                            <img className='w-[400px]' src={item.image} />
+                        </div>
+                        
+                    ))}
+                    
+                </Slider>
+            </div>
 
     {/* Video Section  */}
 
-    <section className="all flex flex-row mx-20 my-20 gap-20 justify-center items-center">
-        <div>
-        <iframe className='rounded-md' title="vimeo-player" src="https://player.vimeo.com/video/789021294?h=6473b5fe0e" width="540" height="300" frameborder="0"    allowfullscreen></iframe>
-        </div>
-        <div>
-            <h1 className="text-pink-500 font-bold text-3xl my-2">Discover 5ire</h1>
-            <p className='font-semibold w-64 mb-2'>Highly incentivize practices thatalign with the UN SDGs.</p>
-            <button className="bg-black text-white font-semibold rounded-md p-2">Know More</button>
-        </div>
-    </section>
+            <section className="all flex flex-row mx-20 my-20 gap-20 justify-center items-center">
+                <div>
+                <iframe className='rounded-md' title="vimeo-player" src="https://player.vimeo.com/video/789021294?h=6473b5fe0e" width="540" height="300" frameborder="0"    allowfullscreen></iframe>
+                </div>
+                <div>
+                    <h1 className="text-pink-500 font-bold text-3xl my-2">Discover 5ire</h1>
+                    <p className='font-semibold w-64 mb-2'>Highly incentivize practices thatalign with the UN SDGs.</p>
+                    <button className="bg-black text-white font-semibold rounded-md p-2">Know More</button>
+                </div>
+            </section>
         
         </>
     )
