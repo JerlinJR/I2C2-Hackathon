@@ -1,6 +1,7 @@
 import React from "react";
+import Slider from "react-slick";
 import hero from '../assets/hom-hero.png'
-import data from '../data'
+import {brands, slider} from '../data'
 import feature from '../assets/feature-img.png'
 import darkFeat from '../assets/dark-fea.png'
 import flowGroup from '../assets/flow-group.png'
@@ -8,7 +9,42 @@ import testNet from '../assets/testnet.png'
 import techOne from '../assets/tech1.png'
 import techTwo from '../assets/tech2.png'
 
-export default function Home(props){
+export default function Home(){
+
+    var settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        initialSlide: 2,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              initialSlide: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      };
     return(
         <>
             <div className="flex flex-row justify-center items-center all my-15">
@@ -42,8 +78,8 @@ export default function Home(props){
                     <img className='right w-[150px] z-10' src={feature} alt='feature' />
                 </div>
                 <div className="flex flex-row mt-20  gap-10">
-                    {data.map(item => (
-                        <div className="bg-blue-400 p-5 rounded-md">
+                    {brands.map(item => (
+                        <div className="bg-blue-400 p-5 rounded-md" key={item.title}>
                             <h2 className='text-white text-lg font-bold text-center'>{item.title}</h2>
                             <p className="font-semibold text-md">{item.desc}</p>
                         </div>
@@ -97,6 +133,34 @@ export default function Home(props){
                     <img className='w-[200px]' src={techOne} alt='tech-1' />
                 </section>
             </div>
+
+    {/* Slider */}
+
+        <div>
+            <Slider className=' my-28' {...settings}>
+                
+                {slider.map(item => (
+                    <div className="mx-10" key={item.title} >
+                        <img className='w-[400px]' src={item.image} />
+                    </div>
+                    
+                ))}
+                
+            </Slider>
+        </div>
+
+    {/* Video Section  */}
+
+    <section className="all flex flex-row mx-20 my-20 gap-20 justify-center items-center">
+        <div>
+        <iframe className='rounded-md' title="vimeo-player" src="https://player.vimeo.com/video/789021294?h=6473b5fe0e" width="540" height="300" frameborder="0"    allowfullscreen></iframe>
+        </div>
+        <div>
+            <h1 className="text-pink-500 font-bold text-3xl my-2">Discover 5ire</h1>
+            <p className='font-semibold w-64 mb-2'>Highly incentivize practices thatalign with the UN SDGs.</p>
+            <button className="bg-black text-white font-semibold rounded-md p-2">Know More</button>
+        </div>
+    </section>
         
         </>
     )

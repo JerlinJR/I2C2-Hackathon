@@ -1,4 +1,4 @@
-const feature = [
+const brands = [
     {
         title: "Government",
         desc : "5ire provides a novel way for governments to engage with citizens and scale their capacities for effective administration with transparency, efficiency, and speed."
@@ -21,4 +21,31 @@ const feature = [
     }
 ]
 
-export default feature
+const slider = [
+    {
+        title:"slider1",
+        image :"/src/assets/slider/slider1.png"
+    },
+    {
+        title:"slider2",
+        image :"/src/assets/slider/slider2.png"
+    },
+    {
+        title:"slider3",
+        image :"/src/assets/slider/slider3.png"
+    },
+    {
+        title:"slider4",
+        image :"/src/assets/slider/slider4.png"
+    },
+    {
+        title:"slider5",
+        image :"/src/assets/slider/slider5.png"
+    },
+    {
+        title:"slider6",
+        image :"/src/assets/slider/slider6.png"
+    }
+]
+
+export { brands, slider }
