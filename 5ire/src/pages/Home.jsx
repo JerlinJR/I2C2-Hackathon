@@ -8,6 +8,7 @@ import flowGroup from '../assets/flow-group.png'
 import testNet from '../assets/testnet.png'
 import techOne from '../assets/tech1.png'
 import techTwo from '../assets/tech2.png'
+import Footer from '../components/Footer.jsx'
 
 export default function Home(){
 
@@ -162,6 +163,8 @@ export default function Home(){
                 </div>
             </section>
         
+        <Footer />
+
         </>
     )
 }
