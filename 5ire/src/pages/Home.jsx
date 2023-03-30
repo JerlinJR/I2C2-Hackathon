@@ -9,6 +9,8 @@ import testNet from '../assets/testnet.png'
 import techOne from '../assets/tech1.png'
 import techTwo from '../assets/tech2.png'
 import Footer from '../components/Footer.jsx'
+import Header from '../components/Header.jsx'
+
 
 export default function Home(){
 
@@ -48,6 +50,9 @@ export default function Home(){
       };
     return(
         <>
+
+        <Header />
+        
             <div className="flex flex-row justify-center items-center all my-15">
                 <div>
                     <h1 className="text-pink-500 font-bold text-5xl my-2">BLOCKCHAIN MEETS</h1>
