@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import hero from '../assets/hom-hero.png'
 import {brands, slider} from '../data'
+import { Link } from 'react-router-dom'
 import feature from '../assets/feature-img.png'
 import darkFeat from '../assets/dark-fea.png'
 import flowGroup from '../assets/flow-group.png'
@@ -48,6 +49,7 @@ export default function Home(){
       };
     return(
         <>
+        <Link to='/about' >About us</Link>
             <div className="flex flex-row justify-center items-center all my-15">
                 <div>
                     <h1 className="text-pink-500 font-bold text-5xl my-2">BLOCKCHAIN MEETS</h1>
@@ -154,7 +156,7 @@ export default function Home(){
 
             <section className="all flex flex-row mx-20 my-20 gap-20 justify-center items-center">
                 <div>
-                <iframe className='rounded-md' title="vimeo-player" src="https://player.vimeo.com/video/789021294?h=6473b5fe0e" width="540" height="300" frameborder="0"    allowfullscreen></iframe>
+                <iframe className='rounded-md' title="vimeo-player" src="https://player.vimeo.com/video/789021294?h=6473b5fe0e" width="540" height="300" frameBorder="0"    allowFullScreen></iframe>
                 </div>
                 <div>
                     <h1 className="text-pink-500 font-bold text-3xl my-2">Discover 5ire</h1>
@@ -163,7 +165,7 @@ export default function Home(){
                 </div>
             </section>
         
-        <Footer />
+            <Footer />
 
         </>
     )
