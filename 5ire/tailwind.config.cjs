@@ -8,6 +8,10 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('/src/assets/hero-pattern.png')",
+      },
+      colors :{
+        'nblue' : "#7FC8F8",
+        "gray": "#414141",
       }
     },
   },
