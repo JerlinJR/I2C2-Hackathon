@@ -12,6 +12,7 @@ module.exports = {
       colors :{
         'nblue' : "#7FC8F8",
         "gray": "#414141",
+        "test" : "#D9D9D9"
       }
     },
   },

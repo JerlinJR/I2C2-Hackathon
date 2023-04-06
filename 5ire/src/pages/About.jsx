@@ -1,10 +1,10 @@
 import React from 'react'
 import Slider from "react-slick";
-import heroImg from '../assets/about-hero.png'
+import Aboutf from '../components/Aboutf';
 import Header from '../components/Header'
 import Advisor from '../components/Advisor'
 import Footer from '../components/Footer'
-import {about, companies} from '../data'
+import {about, companies, heroImg} from '../data'
 
 export default function About(){
 
@@ -65,9 +65,8 @@ export default function About(){
                     
                     }
                 </Slider>
-                
-
             </section>
+            <Aboutf />
             <Advisor />
             <Footer />
         </>
