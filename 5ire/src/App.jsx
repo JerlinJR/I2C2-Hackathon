@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Team from './pages/Team';
 import Road from './pages/Road'
+import Thunder from './pages/Thunder'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import './App.css'
@@ -17,6 +18,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/team" element={<Team />} />
         <Route path='/road' element={<Road />} />
+        <Route path='/thunder' element={<Thunder />} />
+
       </Routes>
     </Router>
   )
