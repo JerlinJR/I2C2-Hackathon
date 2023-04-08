@@ -1,14 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
-import hero from '../assets/hom-hero.png'
-import {brands, slider} from '../data'
+import {brands, slider, feature, darkFeat, hero, flowGroup, testNet, techOne, techTwo} from '../data'
 import { Link } from 'react-router-dom'
-import feature from '../assets/feature-img.png'
-import darkFeat from '../assets/dark-fea.png'
-import flowGroup from '../assets/flow-group.png'
-import testNet from '../assets/testnet.png'
-import techOne from '../assets/tech1.png'
-import techTwo from '../assets/tech2.png'
 import Footer from '../components/Footer.jsx'
 import Header from '../components/Header.jsx'
 

@@ -65,6 +65,7 @@ const about = [
     },
 ]
 
+
 const companies =[
     {
         title:'a',
@@ -166,4 +167,93 @@ const companies =[
 
 ]
 
-export { brands, slider, about, companies }
+const team = [
+    {
+        name: "Pratik Gauri",
+        image:'/src/assets/team/pratikGauri.png',
+        role : "Founde & Cheif Executive Officer",
+        telegramLogo : '/src/assets/team/telegram.png',
+        linkedinlogo : '/src/assets/team/linkedin.png',
+        telegram : 'https://telegram.me/pratikgauri',
+        linkedin : 'https://www.linkedin.com/in/pratikgauri/'
+    },
+    {
+        name: "Utkarsh Amitabh",
+        image:'/src/assets/team/utkarshAmitabh.png',
+        role : "Cheif Marketing Officer",
+        telegramLogo : '/src/assets/team/telegram.png',
+        linkedinlogo : '/src/assets/team/linkedin.png',
+        telegram : 'https://telegram.me/Uct987',
+        linkedin : 'https://www.linkedin.com/in/utkarshamitabh/'
+    },
+    {
+        name: "Bibin Babu",
+        image:'/src/assets/team/bibinBabu.png',
+        role : "Cheif Growth Officer",
+        telegramLogo : '/src/assets/team/telegram.png',
+        linkedinlogo : '/src/assets/team/linkedin.png',
+        telegram : 'https://twitter.com/iambibinbabu',
+        linkedin : 'https://www.linkedin.com/in/iambibinbabu/'
+    },
+    {
+        name: "Prateek Dwivedi",
+        image:'/src/assets/team/Prateekdwivedi.png',
+        role : "Co-founder & Cheif Product officer",
+        telegramLogo : '/src/assets/team/telegram.png',
+        linkedinlogo : '/src/assets/team/linkedin.png',
+        telegram : 'https://telegram.me/thecryptobloke',
+        linkedin : 'https://www.linkedin.com/in/prateekfire/'
+    },
+    {
+        name: "Lukasz Orlowski",
+        image:'/src/assets/team/lukaszOrlowski.png',
+        role : "Cheif Technology Officer",
+        telegramLogo : '/src/assets/team/telegram.png',
+        linkedinlogo : '/src/assets/team/linkedin.png',
+        telegram : 'https://telegram.me/IndranilQuest',
+        linkedin : 'https://www.linkedin.com/in/lorlowski/'
+    },
+]
+
+const road = [
+    {
+        content : "MetaMask Support in the 5ire Explorer App: MetaMask is the leading standard for EVM chain wallets and the first wallet that 5ireChain needs to have turn-key integration with"
+    },
+    {
+        content : "Remix Integration with the 5ire Explorer App: To improve adoption and facilitate smart contract development and deployment, Remix needs to be integrated with the 5ire explorer as a turn-key solution."
+    },
+    {
+        content: "Dual-Chain Wallet Browser Extension: It's like MetaMask, but also supports substrate native accounts. "
+    },
+    {
+        content: "Testnet Thunder Beta: The public testnet beta must provide all the tools necessary for early adopters and builders to easily get started with 5ireChain."
+    },
+    {
+        content: "Polkadot (.Js) Extension Integration with 5ire Explorer, Nominator and Validator Apps: This feature is necessary right after the opening of the testnet to the public to familiarize users with nominating and staking on 5ireChain, which will be essential for securing and decentralizing the network after the mainnet is launched."
+    },
+    {
+        content: "Update of the Consensus Mechanism: 5ireChain's consensus will be amended to use fast-forward (BABE + GRANDPA) for selection, block production, and validation, while ESG scores will be used for rewards computation."
+    },
+    {
+        content: "Testnet Thunder GA: This will cover all features and final bug fixes before the Mainnet is launched. In other words, since 5ire is close to launching the Mainnet, this will be the N-1 stage."
+    },
+    {
+        content: "Mainnet Launch (ETA: Q3 2023): 5ire will officially launch the world's first sustainable layer-1 blockchain for public dealings in Q3 2023. The scope of this launch is to provide all the functionalities necessary for building on 5ireChain plus bridging between other EVM chains."
+    },
+    {
+        content: "TGE: 5ireChain's token generation event will occur once the mainnet has been successfully launched. As announced earlier, 5ire will launch the 5ire Coin on its Mainnet."
+    },
+]
+
+const feature = "/src/assets/feature-img.png"
+const darkFeat = "/src/assets/dark-fea.png"
+const hero = "src/assets/hom-hero.png"
+const flowGroup = "src/assets/flow-group.png"
+const testNet = "src/assets/testnet.png"
+const techOne = "src/assets/tech1.png"
+const techTwo = "src/assets/tech2.png"
+const logo = '/src/assets/logo.png'
+const heroImg = '/src/assets/about-hero.png'
+const roadImg = '/src/assets/roadmap/roadmap.png'
+
+export { brands, slider, about, companies, feature, darkFeat, hero, flowGroup, testNet, techOne, techTwo, heroImg, logo, team, roadImg, road}
