@@ -1,9 +1,28 @@
 
 .advisor{
-    position: relative;
+    /* position: relative; */
     background-color: #FFE771;
-    padding: 350px;
-    margin-top: 20px;
+    padding: 100px;
+    margin-top: 10px;
+
+}
+
+.row1{
+  margin-left: 100px;
+}
+.row2{
+  margin-left: 100px;
+  margin-top: 200px;
+}
+
+.title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 200px;
 }
   
   .column {
