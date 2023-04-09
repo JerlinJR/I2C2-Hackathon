@@ -48,7 +48,7 @@ For Windows Install Visual C++ Build Environment: [Visual Studio Build Tools](ht
 
 [Ben](https://github.com/JerlinJR)
 
-[Jerfin A]()
+[Jerfin A](https://github.com/jerfin29)
 
 [Stains KS Mault ](https://github.com/stainsleto)
 
