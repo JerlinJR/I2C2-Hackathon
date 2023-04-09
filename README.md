@@ -1,9 +1,14 @@
+# I2C2Hackathon (5ire Redesign)
+
+![alt text](https://github.com/JerlinJR/I2C2-Hackathon/blob/main/README_Assets/home.png)
+
+# To view a live example, [Click Here](https://codered-5ire.netlify.app/)
+
 # Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 You'll need [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/en/download) (which comes with npm) installed on your computer.
-
 For Windows Install Visual C++ Build Environment: [Visual Studio Build Tools](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools)
 
 ## Tech stack
