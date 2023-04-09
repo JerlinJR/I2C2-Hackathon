@@ -1,3 +1,5 @@
+// import {require} from 'browserify'
+
 const brands = [
     {
         title: "Government",
@@ -24,27 +26,27 @@ const brands = [
 const slider = [
     {
         title:"slider1",
-        image :"/src/assets/slider/slider1.png"
+        image : require("./assets/slider/slider1.png")
     },
     {
         title:"slider2",
-        image :"/src/assets/slider/slider2.png"
+        image : require("./assets/slider/slider2.png")
     },
     {
         title:"slider3",
-        image :"/src/assets/slider/slider3.png"
+        image : require("./assets/slider/slider3.png")
     },
     {
         title:"slider4",
-        image :"/src/assets/slider/slider4.png"
+        image : require("./assets/slider/slider4.png")
     },
     {
         title:"slider5",
-        image :"/src/assets/slider/slider5.png"
+        image : require("./assets/slider/slider5.png")
     },
     {
         title:"slider6",
-        image :"/src/assets/slider/slider6.png"
+        image : require("./assets/slider/slider6.png")
     }
 ]
 
@@ -69,99 +71,99 @@ const about = [
 const companies =[
     {
         title:'a',
-        iname : 'a.png'
+        iname : require('./assets/partners/a.png')
     },
     {
         title:'b',
-        iname : 'b.png'
+        iname : require('./assets/partners/b.png')
     },
     {
         title:'c',
-        iname : 'c.png'
+        iname : require('./assets/partners/c.png')
     },
     {
         title:'d',
-        iname : 'd.png'
+        iname : require('./assets/partners/d.png')
     },
     {
         title:'e',
-        iname : 'e.png'
+        iname : require('./assets/partners/e.png')
     },
     {
         title:'f',
-        iname : 'f.png'
+        iname : require('./assets/partners/f.png')
     },
     {
         title:'g',
-        iname : 'g.png'
+        iname : require('./assets/partners/g.png')
     },
     {
         title:'h',
-        iname : 'h.png'
+        iname : require('./assets/partners/h.png')
     },
     {
         title:'i',
-        iname : 'i.png'
+        iname : require('./assets/partners/i.png')
     },
     {
         title:'j',
-        iname : 'j.png'
+        iname : require('./assets/partners/j.png')
     },
     {
         title:'k',
-        iname : 'k.png'
+        iname : require('./assets/partners/k.png')
     },
     {
         title:'l',
-        iname : 'l.png'
+        iname : require('./assets/partners/l.png')
     },
     {
         title:'m',
-        iname : 'm.png'
+        iname : require('./assets/partners/m.png')
     },
     {
         title:'n',
-        iname : 'n.png'
+        iname : require('./assets/partners/n.png')
     },
     {
         title:'o',
-        iname : 'o.png'
+        iname : require('./assets/partners/o.png')
     },
     {
         title:'p',
-        iname : 'p.png'
+        iname : require('./assets/partners/p.png')
     },
     {
         title:'q',
-        iname : 'q.png'
+        iname : require('./assets/partners/q.png')
     },
     {
         title:'r',
-        iname : 'r.png'
+        iname : require('./assets/partners/r.png')
     },
     {
         title:'s',
-        iname : 's.png'
+        iname : require('./assets/partners/s.png')
     },
     {
         title:'t',
-        iname : 't.png'
+        iname : require('./assets/partners/t.png')
     },
     {
         title:'v',
-        iname : 'v.png'
+        iname : require('./assets/partners/v.png')
     },
     {
         title:'u',
-        iname : 'u.png'
+        iname : require('./assets/partners/u.png')
     },
     {
         title:'w',
-        iname : 'w.png'
+        iname : require('./assets/partners/w.png')
     },
     {
         title:'x',
-        iname : 'x.png'
+        iname : require('./assets/partners/x.png')
     },
 
 
@@ -170,46 +172,46 @@ const companies =[
 const team = [
     {
         name: "Pratik Gauri",
-        image:'/src/assets/team/pratikGauri.png',
+        image: require('./assets/team/pratikGauri.png'),
         role : "Founde & Cheif Executive Officer",
-        telegramLogo : '/src/assets/team/telegram.png',
-        linkedinlogo : '/src/assets/team/linkedin.png',
+        telegramLogo : require('./assets/team/telegram.png'),
+        linkedinlogo : require('./assets/team/linkedin.png'),
         telegram : 'https://telegram.me/pratikgauri',
         linkedin : 'https://www.linkedin.com/in/pratikgauri/'
     },
     {
         name: "Utkarsh Amitabh",
-        image:'/src/assets/team/utkarshAmitabh.png',
+        image: require('./assets/team/utkarshAmitabh.png'),
         role : "Cheif Marketing Officer",
-        telegramLogo : '/src/assets/team/telegram.png',
-        linkedinlogo : '/src/assets/team/linkedin.png',
+        telegramLogo : require('./assets/team/telegram.png'),
+        linkedinlogo : require('./assets/team/linkedin.png'),
         telegram : 'https://telegram.me/Uct987',
         linkedin : 'https://www.linkedin.com/in/utkarshamitabh/'
     },
     {
         name: "Bibin Babu",
-        image:'/src/assets/team/bibinBabu.png',
+        image: require('./assets/team/bibinBabu.png'),
         role : "Cheif Growth Officer",
-        telegramLogo : '/src/assets/team/telegram.png',
-        linkedinlogo : '/src/assets/team/linkedin.png',
+        telegramLogo : require('./assets/team/telegram.png'),
+        linkedinlogo : require('./assets/team/linkedin.png'),
         telegram : 'https://twitter.com/iambibinbabu',
         linkedin : 'https://www.linkedin.com/in/iambibinbabu/'
     },
     {
         name: "Prateek Dwivedi",
-        image:'/src/assets/team/Prateekdwivedi.png',
+        image: require('./assets/team/Prateekdwivedi.png'),
         role : "Co-founder & Cheif Product officer",
-        telegramLogo : '/src/assets/team/telegram.png',
-        linkedinlogo : '/src/assets/team/linkedin.png',
+        telegramLogo : require('./assets/team/telegram.png'),
+        linkedinlogo : require('./assets/team/linkedin.png'),
         telegram : 'https://telegram.me/thecryptobloke',
         linkedin : 'https://www.linkedin.com/in/prateekfire/'
     },
     {
         name: "Lukasz Orlowski",
-        image:'/src/assets/team/lukaszOrlowski.png',
+        image: require('./assets/team/lukaszOrlowski.png'),
         role : "Cheif Technology Officer",
-        telegramLogo : '/src/assets/team/telegram.png',
-        linkedinlogo : '/src/assets/team/linkedin.png',
+        telegramLogo : require('./assets/team/telegram.png'),
+        linkedinlogo : require('./assets/team/linkedin.png'),
         telegram : 'https://telegram.me/IndranilQuest',
         linkedin : 'https://www.linkedin.com/in/lorlowski/'
     },
@@ -247,56 +249,56 @@ const road = [
 
 const news =[
     {
-        img : "/src/assets/news/slider1.png",
+        img : require("./assets/news/slider1.png"),
         title:"Our Co-founder and CEO,pratikgauri" ,
         desc: "Has just won the EconomicTimes Global Indian Leaders '22 Award! ",
         readMore : "#"
 
     },
     {
-        img : "/src/assets/news/slider2.png",
+        img : require("./assets/news/slider2.png"),
         title:"5ire.org awarded the Best Tech Start-up of the Year in the Blockchain domain, by Entrepreneur Awards 2022" ,
         desc: "5ire.org emphasises non-monetary factors such as environmental, social, and governance scores in the 5ireChain ranking protocol. ",
         readMore : "#"
 
     },
     {
-        img : "/src/assets/news/slider3.png",
+        img : require("./assets/news/slider3.png"),
         title:"Sadhguru Sadupdesh Meets Sustainable Blockchain Ecosystem 5ire" ,
         desc: "Sadhguru Sadupdesh will start building its L2 solution on L1 5ire network to amplify the transition from for-profit economy in the 4th Industrial Revolution to a for-benefit economy in the 5th Industrial Revolution.",
         readMore : "#"
 
     },
     {
-        img : "/src/assets/news/slider4.png",
+        img : require("./assets/news/slider4.png"),
         title:"5ire is now a member of World Economic Forum 'Global Unicorn Innovators' Program" ,
         desc: "5ire is a blockchain network that brings sustainability, technology, and Innovation to build the 5th industrial revolution (5IR).The company's primary offering is 5ireChain, a first layer, sustainability-driven 5th generation blockchain that ensures adherence to the philosophy of 5IR, creating a net positive impact on the planet and serving humanity.",
         readMore : "#"
 
     },
     {
-        img : "/src/assets/news/slider5.png",
+        img : require("./assets/news/slider5.png"),
         title:"5ire, has raised $100 million at a valuation of $1.5 B" ,
         desc: "5ire, which is still pre-revenue, expects to start generating revenue from November, and hit a billion-dollar revenue mark in three years.",
         readMore : "#"
 
     },
     {
-        img : "/src/assets/news/slider6.png",
+        img : require("./assets/news/slider6.png"),
         title:"Partnership with Abu Dhabi University  🎊" ,
         desc: "This collaboration is in line with the UAE's strategy to promote innovation and technology in the country and will contribute to the national effort of building a knowledge-based economy. 📖🔖",
         readMore : "#"
 
     },
     {
-        img : "/src/assets/news/slider7.png",
+        img : require("./assets/news/slider7.png"),
         title:"Creating a culture of innovation and entrepreneurship across India." ,
         desc: "With that in mind, we are thrilled to announce a collaboration between 5ire and Niti Aayog that will bring forth Web 3.0 education and revolutionize how blockchain will impact young minds. ",
         readMore : "#"
 
     },
     {
-        img : "/src/assets/news/slider8.png",
+        img : require("./assets/news/slider8.png"),
         title:"Our CEO Pratik Gauri and CMO Utkarsh Amitabh discussed the importance of Web3 education in a conversation with NITI Ayog today." ,
         desc: "Do you think it's important to introduce Web3 as a part of school curriculum?",
         readMore : "#"
@@ -304,15 +306,15 @@ const news =[
     },
 ]
 
-const feature = "/src/assets/feature-img.png"
-const darkFeat = "/src/assets/dark-fea.png"
-const hero = "src/assets/hom-hero.png"
-const flowGroup = "src/assets/flow-group.png"
-const testNet = "src/assets/testnet.png"
-const techOne = "src/assets/tech1.png"
-const techTwo = "src/assets/tech2.png"
-const logo = '/src/assets/logo.png'
-const heroImg = '/src/assets/about-hero.png'
-const roadImg = '/src/assets/roadmap/roadmap.png'
+const feature = require("./assets/feature-img.png")
+const darkFeat = require("./assets/dark-fea.png")
+const hero = require("./assets/hom-hero.png")
+const flowGroup = require("./assets/flow-group.png")
+const testNet = require("./assets/testnet.png")
+const techOne = require("./assets/tech1.png")
+const techTwo = require("./assets/tech2.png")
+const logo = require('./assets/logo.png')
+const heroImg = require('./assets/about-hero.png')
+const roadImg = require('./assets/roadmap/roadmap.png')
 
 export { brands, slider, about, companies, feature, darkFeat, hero, flowGroup, testNet, techOne, techTwo, heroImg, logo, team, roadImg, road, news}
