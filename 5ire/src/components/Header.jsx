@@ -13,9 +13,10 @@ export default function Header(){
               <div id='Links'>
                 <Link to='/about' id='btn1'>About us</Link>
                 <Link to='/team' id='btn2'>Team</Link>
-                <Link to='/news' id='btn3'>News</Link>
+                <Link to='/thunder' id='btn3'>Thunder</Link>
                 <Link to='/research' id='btn4'>Research</Link>
                 <Link to='/sustainability' id='btn5'>Sustainability</Link>
+                <Link to='/build' id='btn6'>Build</Link>
                 </div>
                 <div id='ireLink'>
                   <Link to='/explore' id='btn6'>5ire Explore</Link>

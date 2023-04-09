@@ -49,3 +49,14 @@ header{
     padding: 30px;
     margin-left: 100px;
 }
+
+/* Thunder Page Css */
+.box{
+    margin-bottom:100px;
+    margin-top: -600px;
+    position: absolute;
+    width: 970px;
+    height: 513px;
+    background: #2B2B2B;
+    border-radius: 49px;
+}
