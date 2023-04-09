@@ -245,6 +245,65 @@ const road = [
     },
 ]
 
+const news =[
+    {
+        img : "/src/assets/news/slider1.png",
+        title:"Our Co-founder and CEO,pratikgauri" ,
+        desc: "Has just won the EconomicTimes Global Indian Leaders '22 Award! ",
+        readMore : "#"
+
+    },
+    {
+        img : "/src/assets/news/slider2.png",
+        title:"5ire.org awarded the Best Tech Start-up of the Year in the Blockchain domain, by Entrepreneur Awards 2022" ,
+        desc: "5ire.org emphasises non-monetary factors such as environmental, social, and governance scores in the 5ireChain ranking protocol. ",
+        readMore : "#"
+
+    },
+    {
+        img : "/src/assets/news/slider3.png",
+        title:"Sadhguru Sadupdesh Meets Sustainable Blockchain Ecosystem 5ire" ,
+        desc: "Sadhguru Sadupdesh will start building its L2 solution on L1 5ire network to amplify the transition from for-profit economy in the 4th Industrial Revolution to a for-benefit economy in the 5th Industrial Revolution.",
+        readMore : "#"
+
+    },
+    {
+        img : "/src/assets/news/slider4.png",
+        title:"5ire is now a member of World Economic Forum 'Global Unicorn Innovators' Program" ,
+        desc: "5ire is a blockchain network that brings sustainability, technology, and Innovation to build the 5th industrial revolution (5IR).The company's primary offering is 5ireChain, a first layer, sustainability-driven 5th generation blockchain that ensures adherence to the philosophy of 5IR, creating a net positive impact on the planet and serving humanity.",
+        readMore : "#"
+
+    },
+    {
+        img : "/src/assets/news/slider5.png",
+        title:"5ire, has raised $100 million at a valuation of $1.5 B" ,
+        desc: "5ire, which is still pre-revenue, expects to start generating revenue from November, and hit a billion-dollar revenue mark in three years.",
+        readMore : "#"
+
+    },
+    {
+        img : "/src/assets/news/slider6.png",
+        title:"Partnership with Abu Dhabi University  🎊" ,
+        desc: "This collaboration is in line with the UAE's strategy to promote innovation and technology in the country and will contribute to the national effort of building a knowledge-based economy. 📖🔖",
+        readMore : "#"
+
+    },
+    {
+        img : "/src/assets/news/slider7.png",
+        title:"Creating a culture of innovation and entrepreneurship across India." ,
+        desc: "With that in mind, we are thrilled to announce a collaboration between 5ire and Niti Aayog that will bring forth Web 3.0 education and revolutionize how blockchain will impact young minds. ",
+        readMore : "#"
+
+    },
+    {
+        img : "/src/assets/news/slider8.png",
+        title:"Our CEO Pratik Gauri and CMO Utkarsh Amitabh discussed the importance of Web3 education in a conversation with NITI Ayog today." ,
+        desc: "Do you think it's important to introduce Web3 as a part of school curriculum?",
+        readMore : "#"
+
+    },
+]
+
 const feature = "/src/assets/feature-img.png"
 const darkFeat = "/src/assets/dark-fea.png"
 const hero = "src/assets/hom-hero.png"
@@ -256,4 +315,4 @@ const logo = '/src/assets/logo.png'
 const heroImg = '/src/assets/about-hero.png'
 const roadImg = '/src/assets/roadmap/roadmap.png'
 
-export { brands, slider, about, companies, feature, darkFeat, hero, flowGroup, testNet, techOne, techTwo, heroImg, logo, team, roadImg, road}
+export { brands, slider, about, companies, feature, darkFeat, hero, flowGroup, testNet, techOne, techTwo, heroImg, logo, team, roadImg, road, news}

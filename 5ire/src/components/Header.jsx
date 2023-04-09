@@ -13,7 +13,7 @@ export default function Header(){
               <div id='Links'>
                 <Link to='/about' id='btn1'>About us</Link>
                 <Link to='/team' id='btn2'>Team</Link>
-                <Link to='/road' id='btn3'>Road Map</Link>
+                <Link to='/news' id='btn3'>News</Link>
                 <Link to='/research' id='btn4'>Research</Link>
                 <Link to='/sustainability' id='btn5'>Sustainability</Link>
                 </div>
