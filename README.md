@@ -32,6 +32,11 @@ For Windows Install Visual C++ Build Environment: [Visual Studio Build Tools](ht
     npm run dev
 
 
+## Prototype of the project
+
+[Figma](https://www.figma.com/proto/9cKeMLgFVqrvKzizNk6164/ui-practice?page-id=208%3A6&node-id=272-853&viewport=800%2C786%2C0.03&scaling=min-zoom&starting-point-node-id=272%3A853)
+
+
 ## Technologies Used
 
 [TailWind](https://tailwindcss.com/)\
